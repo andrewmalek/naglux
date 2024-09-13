@@ -3,8 +3,8 @@ package json
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/griesbacher/nagflux/collector"
-	"github.com/griesbacher/nagflux/data"
+	"github.com/andrewmalek/naglux/collector"
+	"github.com/andrewmalek/naglux/data"
 	"github.com/kdar/factorlog"
 	"io/ioutil"
 	"os"

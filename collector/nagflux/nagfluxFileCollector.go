@@ -2,11 +2,11 @@ package nagflux
 
 import (
 	"encoding/csv"
-	"github.com/griesbacher/nagflux/collector"
-	"github.com/griesbacher/nagflux/collector/spoolfile"
-	"github.com/griesbacher/nagflux/config"
-	"github.com/griesbacher/nagflux/helper"
-	"github.com/griesbacher/nagflux/logging"
+	"github.com/andrewmalek/naglux/collector"
+	"github.com/andrewmalek/naglux/collector/spoolfile"
+	"github.com/andrewmalek/naglux/config"
+	"github.com/andrewmalek/naglux/helper"
+	"github.com/andrewmalek/naglux/logging"
 	"github.com/kdar/factorlog"
 	"os"
 	"time"

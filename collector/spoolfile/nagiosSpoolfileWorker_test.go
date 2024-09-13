@@ -2,8 +2,8 @@ package spoolfile
 
 import (
 	"fmt"
-	"github.com/griesbacher/nagflux/collector"
-	"github.com/griesbacher/nagflux/helper"
+	"github.com/andrewmalek/naglux/collector"
+	"github.com/andrewmalek/naglux/helper"
 	"testing"
 )
 

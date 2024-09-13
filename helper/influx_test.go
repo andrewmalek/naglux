@@ -1,7 +1,7 @@
 package helper
 
 import (
-	"github.com/griesbacher/nagflux/config"
+	"github.com/andrewmalek/naglux/config"
 	"reflect"
 	"testing"
 )
