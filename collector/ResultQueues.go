@@ -1,5 +1,5 @@
 package collector
 
-import "github.com/griesbacher/nagflux/data"
+import "github.com/andrewmalek/naglux/data"
 
 type ResultQueues map[data.Target]chan Printable

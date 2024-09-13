@@ -2,9 +2,9 @@ package spoolfile
 
 import (
 	"fmt"
-	"github.com/griesbacher/nagflux/collector"
-	"github.com/griesbacher/nagflux/config"
-	"github.com/griesbacher/nagflux/helper"
+	"github.com/andrewmalek/naglux/collector"
+	"github.com/andrewmalek/naglux/config"
+	"github.com/andrewmalek/naglux/helper"
 )
 
 //PerformanceData represents the nagios perfdata

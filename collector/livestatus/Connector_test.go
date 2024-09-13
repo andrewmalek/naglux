@@ -2,8 +2,8 @@ package livestatus
 
 import (
 	"bufio"
-	"github.com/griesbacher/nagflux/helper"
-	"github.com/griesbacher/nagflux/logging"
+	"github.com/andrewmalek/naglux/helper"
+	"github.com/andrewmalek/naglux/logging"
 	"log"
 	"net"
 	"reflect"
