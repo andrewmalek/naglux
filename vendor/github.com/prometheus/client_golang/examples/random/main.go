@@ -98,6 +98,6 @@ func main() {
 	}()
 
 	// Expose the registered metrics via HTTP.
-	http.Handle("/metrics", promhttp.Handler())
+	http.Handle("/metrics", promhttp.Handler)
 	http.ListenAndServe(*addr, nil)
 }
