@@ -158,7 +158,7 @@ func ExampleInstrumentHandler() {
 		"fileserver", http.FileServer(http.Dir("/usr/share/doc")),
 	))
 	// The Prometheus handler still has to be registered to handle the
-	// "/metrics" endpoint. The handler returned by prometheus.Handler() is
+	// "/metrics" endpoint. The handler returned by promhttp.Handler() is
 	// already instrumented - with "prometheus" as the handler name. In this
 	// example, we want the handler name to be "metrics", so we instrument
 	// the uninstrumented Prometheus handler ourselves.
@@ -195,7 +195,7 @@ func ExampleRegister() {
 	}
 	// Don't forget to tell the HTTP server about the Prometheus handler.
 	// (In a real program, you still need to start the HTTP server...)
-	http.Handle("/metrics", prometheus.Handler())
+	http.Handle("/metrics", promhttp.Handler())
 
 	// Now you can start workers and give every one of them a pointer to
 	// taskCounter and let it increment it whenever it completes a task.

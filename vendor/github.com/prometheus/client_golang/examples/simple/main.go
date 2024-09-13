@@ -25,6 +25,6 @@ var addr = flag.String("listen-address", ":8080", "The address to listen on for 
 
 func main() {
 	flag.Parse()
-	http.Handle("/metrics", promhttp.Handler())
+	http.Handle("/metrics", promhttp.Handler)
 	http.ListenAndServe(*addr, nil)
 }
